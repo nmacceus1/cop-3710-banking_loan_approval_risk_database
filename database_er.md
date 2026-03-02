@@ -1,6 +1,6 @@
 #ER Diagram
 
-![ER Diagram](er_diagram.png)
+![Final Normalized ER Diagram](er_final.png)
 
 
 User Groups:
