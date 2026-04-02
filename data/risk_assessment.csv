@@ -1,0 +1,4 @@
+LoanID,Assessment_Date,RiskScore,RiskLevel
+L1,2026-01-02,650,Medium
+L2,2026-01-03,720,Low
+L3,2026-01-04,580,High

@@ -1,0 +1,4 @@
+OfficerID,LoanID,ReviewDate,DecisionNotes
+O1,L1,2026-01-02,Approved
+O2,L2,2026-01-03,Pending Review
+O3,L3,2026-01-04,Rejected
