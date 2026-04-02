@@ -22,3 +22,6 @@ The selected dataset is a Loan Prediction Problem Dataset, which This includes i
 ##Part B: E/R Diagram
 
 This project uses a relationial database application that manages bank loan applications, approvals, and risk assessments. The system models how financial istutions collect application information, evaluate risks, and make loan approval desciions. This database stores loan and pplicant data. It also assigns loan officers to review the application.It calculates risks and enforces approval rules. This type of design emphasizes normalization, integrity, and is an accurate model of real-worl loan proccessing operations.
+
+##Final ER Design
+![Final ER Diagram](er_final.png)
