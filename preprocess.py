@@ -4,9 +4,16 @@ import os
 import random
 from datetime import datetime, timedelta
 
+from faker import Faker
+fake = Faker()
 
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("altruistdelhite04/loan-prediction-problem-dataset")
+path = os.path.join(path, "test_Y3wMUE5_7gLdaTN.csv")
 # Load dataset
-df = pd.read_csv("test_Y3wMUE5_7gLdaTN.csv.xls")
+df = pd.read_csv(path)
 
 os.makedirs("data", exist_ok=True)
 
@@ -16,8 +23,8 @@ os.makedirs("data", exist_ok=True)
 # Applicant Table
 applicant_df = df[['ApplicantIncome', 'Credit_History']].copy()
 applicant_df['Applicant_ID'] = ['A' + str(i+1) for i in range(len(applicant_df))]
-applicant_df['FirstName'] = "N/A"
-applicant_df['LastName'] = "N/A"
+applicant_df['FirstName'] = [fake.first_name() for _ in range(len(applicant_df))]
+applicant_df['LastName'] = [fake.last_name() for _ in range(len(applicant_df))]
 applicant_df['EmploymentStatus'] = df['Self_Employed'].fillna("No")
 applicant_df.rename(columns={'Credit_History': 'CreditHistory'}, inplace=True)
 applicant_df[['Applicant_ID', 'FirstName', 'LastName', 'EmploymentStatus', 'CreditHistory']]\
