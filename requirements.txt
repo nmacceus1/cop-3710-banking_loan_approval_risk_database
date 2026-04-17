@@ -1,0 +1,6 @@
+Faker==40.13.0
+kagglehub==1.0.0
+oracledb==3.4.2
+pandas==3.0.2
+python-dotenv==1.2.2
+streamlit==1.55.0
