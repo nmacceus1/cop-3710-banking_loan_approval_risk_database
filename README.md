@@ -25,3 +25,16 @@ This project uses a relationial database application that manages bank loan appl
 
 ##Final ER Design
 ![Final ER Diagram](er_final.png)
+
+
+## How to Use This Repo
+Follow these steps to set up the database and run the application on your local machine.
+
+### Step 1: Database Initialization
+Open your SQL environment and run the `create_db.sql` script. This will create the necessary tables and relationships.
+* **File:** `create_db.sql`
+
+### Step 2: Populate the Database
+Run the `dataload.py` script to populate your new tables with the initial "toy" dataset.
+```bash
+python dataload.py
