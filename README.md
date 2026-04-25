@@ -38,3 +38,16 @@ Open your SQL environment and run the `create_db.sql` script. This will create t
 Run the `dataload.py` script to populate your new tables with the initial "toy" dataset.
 ```bash
 python dataload.py
+
+
+##Step 3: Configure Database Credentials
+
+You must link the application to your local SQL instance. Open app.py in your code editor:
+
+Change Line X to: host="localhost"
+
+Change Line Y to: user="your_sql_username", password="your_sql_password"
+
+##Step 4: Run the Application
+
+python -m streamlit run app.py
