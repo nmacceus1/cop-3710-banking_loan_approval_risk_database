@@ -34,12 +34,12 @@ Follow these steps to set up the database and run the application on your local 
 Open your SQL environment and run the `create_db.sql` script. This will create the necessary tables and relationships.
 * **File:** `create_db.sql`
 
-## Step 2: Populate the Database
+### Step 2: Populate the Database
 Run the `dataload.py` script to populate your new tables with the initial "toy" dataset.
 ```bash
 python dataload.py
 
-
+```
 ##Step 3: Configure Database Credentials
 
 You must link the application to your local SQL instance. Open app.py in your code editor:
