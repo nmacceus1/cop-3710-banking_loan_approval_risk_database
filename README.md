@@ -46,3 +46,6 @@ Launch the terminal-based interface by running:
 ```bash
 python3 app.py
 ```
+
+### Application Preview
+<img width="449" height="207" alt="Screenshot 2026-04-25 at 7 50 49 PM" src="https://github.com/user-attachments/assets/a4ee22be-83f3-457e-98a5-4bd3ec524417" />
