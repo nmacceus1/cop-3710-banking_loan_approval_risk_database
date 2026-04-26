@@ -11,7 +11,7 @@ password = os.getenv("DB_PASS")
 dsn = os.getenv("DB_DSN")
 lib_dir = os.getenv("LIB_DIR")
 
-oracledb.init_oracle_client(lib_dir=lib_dir)
+# oracledb.init_oracle_client(lib_dir=lib_dir)
 # Connect to Oracle
 connection = oracledb.connect(
     user=user,
