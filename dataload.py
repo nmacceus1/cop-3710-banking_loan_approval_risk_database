@@ -17,6 +17,7 @@ connection = oracledb.connect(
     user="NMACCEUS_SCHEMA_FQ9YF",
     password="4Ku6ED#3DPCMWOLU7DDS8ZWMX6DXDC",
     dsn="db.freesql.com:1521/23ai_34ui2"
+    ssl_server_dn_match=False
 )
 cursor = connection.cursor()
 
