@@ -8,8 +8,8 @@ The application domain for this project is banking and financial services, with 
 ### Intended Users
 
 Bank Administrators
-Loan Officers 
-Risk Analyst
+,Loan Officers 
+,Risk Analyst
 
 ### High-Level Goals
 
