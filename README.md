@@ -23,16 +23,16 @@ The selected dataset is a Loan Prediction Problem Dataset, which This includes i
 
 This project uses a relationial database application that manages bank loan applications, approvals, and risk assessments. The system models how financial istutions collect application information, evaluate risks, and make loan approval desciions. This database stores loan and pplicant data. It also assigns loan officers to review the application.It calculates risks and enforces approval rules. This type of design emphasizes normalization, integrity, and is an accurate model of real-worl loan proccessing operations.
 
-##Final ER Design
+### Final ER Design
 ![Final ER Diagram](er_final.png)
 
 
-## How to Use This Repo
-Follow these steps to set up the database and run the application on your local machine.
+## How to Run this Project
+Follow these steps to set up the database and run the project locally.
 
 ### Step 1: Database Initialization
 Open your SQL environment and run the `create_db.sql` script. 
-* **File:** `create_db.sql`
+Run `create_db.sql`
 
 ### Step 2: Populate the Database
 Run the `dataload.py` script to populate your new tables with the initial "toy" dataset.
