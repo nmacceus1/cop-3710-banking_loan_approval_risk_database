@@ -32,7 +32,7 @@ Follow these steps to set up the database and run the project locally.
 
 ### Step 1: Database Initialization
 Open your SQL environment and run the `create_db.sql` script. 
-Run `create_db.sql`
+
 
 ### Step 2: Populate the Database
 Run the `dataload.py` script to populate your new tables with the initial "toy" dataset.
