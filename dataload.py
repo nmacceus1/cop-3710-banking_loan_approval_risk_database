@@ -14,9 +14,9 @@ lib_dir = os.getenv("LIB_DIR")
 # oracledb.init_oracle_client(lib_dir=lib_dir)
 # Connect to Oracle
 connection = oracledb.connect(
-    user=user,
-    password=password,
-    dsn=dsn
+    user="NMACCEUS_SCHEMA_FQ9YF",
+    password="4Ku6ED#3DPCMWOLU7DDS8ZWMX6DXDC",
+    dsn="db.freesql.com:1521/23ai_34ui2"
 )
 cursor = connection.cursor()
 
