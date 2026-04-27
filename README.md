@@ -31,7 +31,7 @@ This project uses a relationial database application that manages bank loan appl
 Follow these steps to set up the database and run the application on your local machine.
 
 ### Step 1: Database Initialization
-Open your SQL environment and run the `create_db.sql` script. This will create the necessary tables and relationships.
+Open your SQL environment and run the `create_db.sql` script. 
 * **File:** `create_db.sql`
 
 ### Step 2: Populate the Database
@@ -41,11 +41,36 @@ python dataload.py
 
 ```
 
-### Step 3: Run the Application
-Launch the terminal-based interface by running:
+### Step 3: Configure Credentials
+Ensure your .env file or the connection string in app.py is updated with your FreeSQL credentials:
+
+### Step 4: Install dependencies
+
 ```bash
-python3 app.py
+pip install -r requirements.txt
+
+```
+
+### Step 5: Preproccess data
+If CSV data has not been generated, run:
+
+```bash
+python3 ./preprocess.py
+
+```
+### Step 6: Upload data to your FreeSQL database
+
+```bash
+python3 ./dataload.py
+
+```
+
+### Step 7: Launch Streamlit app:
+
+```bash
+python3 -m streamlit run ./app.py
+
 ```
 
 ### Application Preview
-<img width="449" height="207" alt="Screenshot 2026-04-25 at 7 50 49 PM" src="https://github.com/user-attachments/assets/a4ee22be-83f3-457e-98a5-4bd3ec524417" />
+<img width="1040" height="674" alt="Screenshot 2026-04-27 at 5 16 55 AM" src="https://github.com/user-attachments/assets/d0498d78-3568-4248-a6c0-83df35fdcc7e" />
