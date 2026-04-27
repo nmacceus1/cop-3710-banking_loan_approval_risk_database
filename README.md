@@ -1,6 +1,5 @@
-#Banking Loan Approval & Risk Database
+### Banking Loan Approval & Risk Database
 
-#Create a banking database analyzing loan applications, approvals, and risk factors.
 
 ### Application Domain
 
