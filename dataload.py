@@ -179,12 +179,11 @@ risk_df["RiskLevel"] = risk_df["RiskLevel"].astype(str)
 for _, row in risk_df.iterrows():
     cursor.execute("""
         INSERT INTO Risk_Assessment
-        (LoanID, Assessment_Date, RiskScore, RiskLevel)
-        VALUES (:1, :2, :3, :4)
+        (LOANID, RISKSCORE, RISKLEVEL)
+        VALUES (:1, :2, :3)
     """, (
         row["LoanID"],
-        row["Assessment_Date"],
-        (row["RiskScore"]),
+        row["RiskScore"],
         row["RiskLevel"]
     ))
 
