@@ -22,7 +22,7 @@ PASS = os.getenv("DB_PASS")
 DSN = os.getenv("DB_DSN")
 LIB_DIR = os.getenv("LIB_DIR")
 
-oracledb.init_oracle_client(lib_dir=LIB_DIR)
+#oracledb.init_oracle_client(lib_dir=LIB_DIR)
 
 st.set_page_config(page_title="Banking Loan Approval & Risk User Interface")
 
