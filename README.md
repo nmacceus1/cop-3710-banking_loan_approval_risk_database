@@ -44,6 +44,14 @@ python dataload.py
 ### Step 3: Configure Credentials
 Ensure your .env file or the connection string in app.py is updated with your FreeSQL credentials:
 
+```bash
+DB_USER=
+DB_PASS=
+DB_DSN=
+LIB_DIR=
+
+```
+
 ### Step 4: Install dependencies
 
 ```bash
